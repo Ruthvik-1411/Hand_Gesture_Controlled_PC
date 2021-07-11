@@ -15,17 +15,16 @@ while 1:
 
     if 'Away' in coming_data:
         pyautogui.press('down')
-        #pyautogui.scroll(-100)
+        # or use pyautogui.scroll(-100)
 
     if 'Toward' in coming_data:
         pyautogui.press('up')
-        #pyautogui.scroll(100)
+        #or use pyautogui.scroll(100)
 
     if 'Change' in coming_data:
         pyautogui.keyDown('alt')
         pyautogui.press('tab')
         pyautogui.keyUp('alt')
 
-    coming_data="";
-#use only in pyserial-3.5 folder    
+    coming_data="";   
 #https://pyautogui.readthedocs.io/en/latest/keyboard.html
