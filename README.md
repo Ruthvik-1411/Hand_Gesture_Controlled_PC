@@ -1,7 +1,7 @@
 # Hand_Gesture_Controlled_PC
 
 Recently Gesture controlled PCs are becoming famous. They use something called <b>Leap Motion</b> which allows us to control certain functions in our PC by just waving our hands
-infront of the screen. So I built a basic gesture controlled setup to control a VLC media player and toggle through a webpage using Arduino Uno and Python.<br><br>
+infront of the screen. So I built a basic gesture controlled setup to control a VLC media player and toggle through a webpage using Arduino Uno and Python.<br>
 
 <b>Components Used:</b><br>
 <li>Arduino Uno  x 1
@@ -21,7 +21,8 @@ infront of the screen. So I built a basic gesture controlled setup to control a 
   the keyboard and mouse by our application we use a Second Library that is <b>pyautogui</b>. Pyautogui allows us to control the keyboard and mouse from the code itself.
   More info about the control functions of pyautogui can be obtained <a href="https://pyautogui.readthedocs.io/en/latest/keyboard.html">here</a>.
   These libraries can be installed using pip and make sure to install them where the python and python shell is installed. After installing them make sure to test if they are 
-  working. Try "import serial" in the prompt and if there is an error you can see it and try finding a solution in that case.<br><br>
+  working. Try "import serial" in the prompt and if there is an error you can see it and try finding a solution in that case. Also the com port in use must be free i.e. no 
+  other application must be using it when the python code is running. Even the Serial Monitor should not be used, it returns an error regarding the permissions.<br><br>
   <b>Implementation of Gesture control of Media Player: <a href="https://drive.google.com/file/d/1AZE8-nLWYzwQVdkUN1KVgpxVPQ5iPFc2/view?usp=sharing">Video 1</a> 
   <a href="https://drive.google.com/file/d/17EciASbOBDui6ReP7wv2gS3QmO3VXpb7/view?usp=sharing">Video 2</a><br>
   Implementation of Gesture control of website:   <a href="https://drive.google.com/file/d/1AW34u_MQN6PKMQwZ9DSG9JmbY9v08Xqi/view?usp=sharing">Video 1</a> 
