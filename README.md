@@ -23,8 +23,6 @@ infront of the screen. So I built a basic gesture controlled setup to control a 
   These libraries can be installed using pip and make sure to install them where the python and python shell is installed. After installing them make sure to test if they are 
   working. Try "import serial" in the prompt and if there is an error you can see it and try finding a solution in that case. Also the com port in use must be free i.e. no 
   other application must be using it when the python code is running. Even the Serial Monitor should not be used, it returns an error regarding the permissions.<br><br>
-  <b>Implementation of Gesture control of Media Player: <a href="https://drive.google.com/file/d/1AZE8-nLWYzwQVdkUN1KVgpxVPQ5iPFc2/view?usp=sharing">Video 1</a> 
-  <a href="https://drive.google.com/file/d/17EciASbOBDui6ReP7wv2gS3QmO3VXpb7/view?usp=sharing">Video 2</a><br>
-  Implementation of Gesture control of website:   <a href="https://drive.google.com/file/d/1AW34u_MQN6PKMQwZ9DSG9JmbY9v08Xqi/view?usp=sharing">Video 1</a> 
-  <a href="https://drive.google.com/file/d/1Jz_bTXDxn3Of84jhD-y2QymbRNYMa6Sv/view?usp=sharing">Video 2</a></b>
+  <b>Implementation of Gesture control of Media Player: [https://youtu.be/tomHsykorBw]      [https://youtu.be/knaIimyM4AI]
+  <br><b>Implementation of Gesture control of website: [https://youtu.be/5V5iVYuzau4]     [https://youtu.be/C6Aoy5cST90]
   
